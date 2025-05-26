@@ -4,7 +4,7 @@ df = pd.read_csv(r"C:\Users\Anitha\OneDrive\Documents\food_coded-1(1).csv")
 print("BEFORE CLEANING")
 print(df.info())
 print(df.isnull().sum())
-# Remove duplicate rows
+# Remove exact duplicate rows
 df.drop_duplicates(inplace=True)
 # Remove duplicate columns
 df = df.loc[:, ~df.columns.duplicated()]
@@ -29,4 +29,3 @@ print(df.isnull().sum())
 cleaned_path = "cleaned_food_coded-1.csv"
 df.to_csv(cleaned_path, index=False)
 print("Cleaned file saved to:", cleaned_path)
-
