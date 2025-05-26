@@ -1,4 +1,3 @@
-HUNAR INTERN
 This project focuses on basic data preprocessing steps using Python.
 
 ## Steps to Follow
