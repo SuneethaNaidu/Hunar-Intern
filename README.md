@@ -18,7 +18,7 @@ This project aims to predict house prices based on various features such as the 
 5. Model Training
 6. Evaluation
 ## Tools & Libraries Used
--Python 
--pandas
--scikit-learn
+- Python 
+- pandas
+- scikit-learn
 
